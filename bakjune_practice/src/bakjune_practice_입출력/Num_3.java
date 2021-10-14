@@ -1,0 +1,10 @@
+package bakjune_practice_ÀÔÃâ·Â;
+
+public class Num_3 {
+	public static void main(String[] args) {
+		System.out.println("\\    /\\");
+		System.out.println(" )   (')");
+		System.out.println("(   /  )");
+		System.out.println(" \\(__) |");	
+	}
+}
