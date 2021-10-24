@@ -2,29 +2,26 @@ package bakjune_practice_¹è¿­;
 
 import java.util.Scanner;
 
-public class Num_4 {
+public class Num_6 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int N = sc.nextInt();
-		int[] arr = new int[N];
+		int[] arr = new int[9];
 		
 		for(int i = 0; i<arr.length;i++) {
-			arr[i] = sc.nextInt();
-		}
-		
-		int max = arr[0];
-		int min = arr[0];
-		
+			arr[i] = Integer.parseInt(sc.nextLine());
+		}		
+		int max = 0;
+		int count = 0;	
 		for(int i = 0; i<arr.length;i++) {
 			if(max<arr[i]) {
 				max = arr[i];
+				count=i+1;
+			}else {
+				continue;
 			}
-			if(min>arr[i]) {
-				min = arr[i];
-			}
-			
 		}
-		System.out.println(min+" "+max);
+		System.out.println(max);
+		System.out.println(count);
 	}
 }

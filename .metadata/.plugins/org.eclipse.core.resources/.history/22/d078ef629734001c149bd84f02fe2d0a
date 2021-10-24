@@ -2,7 +2,7 @@ package bakjune_practice_¹è¿­;
 
 import java.util.Scanner;
 
-public class Num_4 {
+public class Num_5 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
