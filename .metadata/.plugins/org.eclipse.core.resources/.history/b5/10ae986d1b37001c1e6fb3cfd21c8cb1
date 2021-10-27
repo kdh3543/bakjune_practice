@@ -1,0 +1,28 @@
+package bakjune_practice_¹è¿­;
+
+import java.util.Scanner;
+
+public class Num_8 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int N =sc.nextInt();
+		int[] avg = new int[N];
+		for(int i = 0; i<N;i++) {
+			avg[i] = sc.nextInt();
+		}
+		
+		for(int i = 0; i<N-1;i++) {
+			if(avg[i]>avg[i+1]) {
+				avg[i+1] = avg[i];
+			}
+		}
+		int[] newavg = new int[N];
+		int sum = 0;
+		for(int i = 0; i<N;i++) {
+			newavg[i] = avg[i]/avg[N-1]*100;
+			sum += newavg[i];
+		}
+		System.out.println(sum);
+	}
+}
