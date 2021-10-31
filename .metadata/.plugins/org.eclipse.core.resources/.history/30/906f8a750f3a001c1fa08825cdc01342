@@ -1,0 +1,12 @@
+package bakjune_practice_¹è¿­;
+
+import java.util.Scanner;
+
+public class Num_10_´Ù½ÃÇ®¾îºÁ¾ßµÊ {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int C =	sc.nextInt();
+		
+	}
+}
