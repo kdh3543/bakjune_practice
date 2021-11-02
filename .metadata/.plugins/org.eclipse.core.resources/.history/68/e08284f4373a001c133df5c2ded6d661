@@ -1,0 +1,22 @@
+package bakjune_practice_¹®ÀÚ¿­;
+
+import java.util.Scanner;
+
+public class Num1 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int N = Integer.parseInt(sc.nextLine());
+		String N2 = sc.nextLine();
+		int sum = 0;
+		System.out.println(N2.length());
+		for(int i = 0; i < N2.length(); i++) {
+			System.out.println(N2.charAt(i));
+			sum += N2.charAt(i);
+		}
+		
+		System.out.println(sum);
+	}	
+
+}
