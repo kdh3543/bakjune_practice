@@ -10,16 +10,16 @@ public class num2 {
 		
 		for(int i=0;i<n.length;i++) {
 			if(n[i]<10) {
-				n[i]+=n[i];
+				n[0]+=n[i];
 				System.out.println(n[i]);
 			}else if(n[i]>=10&&n[0]<100) {
-				n[i]= n[i]+n[i]/10+n[i]%10;
+				n[0]= n[i]+n[i]/10+n[i]%10;
 				System.out.println(n[i]);
 			}else if(n[i]>=100&&n[0]<1000) {
-				n[i] = n[i]+n[i]/100+(n[i]/10)%10+n[i]%10;
+				n[0] = n[i]+n[i]/100+(n[i]/10)%10+n[i]%10;
 				System.out.println(n[0]);
 			}else if(n[i]>=1000&&n[0]<10000) {
-				n[i] = n[i]+n[i]/1000+(n[i]/100)%10+(n[i]/10)%10+n[i]%10;
+				n[0] = n[i]+n[i]/1000+(n[i]/100)%10+(n[i]/10)%10+n[i]%10;
 				System.out.println(n[0]);
 			}
 		}
