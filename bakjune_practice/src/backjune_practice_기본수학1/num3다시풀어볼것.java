@@ -7,11 +7,8 @@ public class num3다시풀어볼것 {
 		Scanner sc = new Scanner(System.in);
 		int X = sc.nextInt();
 		int i = 0;
-		if(i%2==0) {
-			
-		}else if(i%2==1) {
-			
-		}
+		
+		
 		
 			
 		
