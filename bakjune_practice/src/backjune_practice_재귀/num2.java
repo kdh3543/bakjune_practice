@@ -24,7 +24,6 @@ public class num2 {
 			System.out.println(1);
 		}else {
 			System.out.println(result);
-		}
-		
+		}	
 	}
 }

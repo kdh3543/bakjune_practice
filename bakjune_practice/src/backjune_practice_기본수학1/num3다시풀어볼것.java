@@ -6,7 +6,16 @@ public class num3다시풀어볼것 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int X = sc.nextInt();
-		int i = 0;
+		int row = 0;
+		
+		while(true) {
+			row++;
+			int sum = row+1;
+			int multiple = row*(row-1);
+			if(X<multiple) {
+				
+			}
+		}
 		
 		
 		
