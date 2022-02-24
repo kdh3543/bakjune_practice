@@ -9,17 +9,18 @@ public class num1 {
 		int N = sc.nextInt();
 		int count = 0;
 		for(int i = 0; i < N; i++) {
-			int some = sc.nextInt();
-			if(some==1) {
-				continue;
-			}else if((some!=2&&some!=3&&some!=5&&some!=7)&&(some%2==0||some%3==0||some%5==0||some%7==0)) {
-				continue;
-			}else {
+			int number = sc.nextInt();
+			int j=0;
+			for(j = 2; j < number; j++) {
+				if(number%j==0) {
+					break;
+				}
+			}
+			if(j==number) {
 				count++;
 			}
 		}
 		System.out.println(count);
-
 	}
 
 }
